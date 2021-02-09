@@ -1,0 +1,154 @@
+
+@media only screen and (max-width: 800px) {
+    .title{
+        margin-top: 10% !important;
+    }
+    .box {
+       width: 75% !important;
+       height: 80% !important;
+       margin-top: 10% !important;
+    }
+    .hide2{
+        display: none;
+    }
+    .hide{
+        display: block !important;
+        margin: 3% 34% !important;
+        white-space: nowrap;
+    }
+    .startTrial{
+        left: 30% !important;
+    }
+    .ul{
+        margin-left: 50% !important;
+    }
+    .box-title-1{
+        margin:5% 34%;
+        white-space: nowrap;
+    }
+
+  }
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: rgb(255, 255, 255);
+    background-image: url('images/background.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+}
+.box{
+    background-color:rgb(255, 255, 255);
+    margin:5% auto;
+    z-index: 2;
+    padding: 3%;
+    width: 40%;
+    background-color: hsl (0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+.billing{
+    display: block;
+    margin: 5% 15%;
+    white-space: nowrap;
+}
+.title{
+    margin: 4% auto;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.circle{
+    position: absolute;
+    z-index: -1;
+    right: 45%;
+    top: 4%;
+    height: 20%;
+}
+.title h2{
+    margin-bottom:0 ;
+}
+.title p{
+    margin-top: 0;
+}
+
+.btnMY{
+    height: 20px;
+    width: 45px;
+    background-color:hsl(224, 65%, 95%);
+    border-radius: 15px;
+    display: inline-block;
+    transition: .5s cubic-bezier(1,-0.04,.09,1.07);
+    padding: 0;
+    position: relative;
+        top: 2px;
+  }
+  .swi{
+    height: 18px;
+    width: 18px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    position: relative;
+      top: 0.8px;
+      left: 1px;
+    cursor: pointer;
+    text-align: right;
+    display: inline-block;
+    transition: .5s cubic-bezier(1,-0.04,.09,1.07);
+  }
+  .btnoff{
+    background-color: hsl(174, 86%, 45%) !important;
+  }
+  .btnoff_2{
+    margin-left: 25px;
+  }
+
+  .price{
+      font-size: 50px;
+      font-weight: 500;
+      color: black;
+  }
+  ul{
+        list-style-image: url('images/tick.png');
+        color: grey;
+        margin: 5% 20%;
+        white-space: nowrap;
+    }
+  .startTrial{
+      background-color: hsl(227, 35%, 25%);
+      color: azure;
+      border-radius: 10px;
+      border:none;
+      height: 30px;
+      width: 130px;
+      font-size: 12px;
+      margin: 0% auto;
+      position: relative;
+        top:32%;
+        left:20%;
+  }
+ 
+  .slider{
+        width: 90%;
+  }
+ p{
+     display: inline-block;
+     font-size: 13px;
+     font-weight: 600;
+     color: slategrey;
+ }
+ .col-md-12{
+     align-content: center;
+ }
+
+ .hide{
+     display: none;
+ }
+ .container-fluid{
+     margin: 5% auto;
+ }
+ .discount{
+     background-color: tomato;
+     color: white;
+     margin-left: 10%;
+     padding: 2%;
+     border-radius: 5%;
+ }
